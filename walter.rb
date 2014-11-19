@@ -16,5 +16,19 @@ class Walter < Formula
    def install
      bin.install Dir['*']
    end
+
+    test do
+      minimal = testpath/"pipeline.yml"
+      minimal.write <<-EOS.undent
+        messenger:
+          type: fake
+
+        pipeline:
+          - stage_name: Notify the beggining of process pipeline
+            command: echo "build pipeline is started"
+            message: true
+        EOS
+      system "#{bin}/walter"
+    end
 end
 
