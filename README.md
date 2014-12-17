@@ -1,8 +1,19 @@
+# Homebrew Walter
+
+## install
+
 ```
 $ brew tap higanworks/homebrew-walter-binary
 $ brew install walter
 ```
 http://ainoya.io/walter
+
+## upgrade
+
+```
+$ brew update
+$ brew upgrade walter
+```
 
 ## test
 
