@@ -24,7 +24,7 @@ class Walter < Formula
         type: fake
 
       pipeline:
-        - stage_name: Notify the beggining of process pipeline
+        - stage: Notify the beggining of process pipeline
           command: echo "build pipeline is started"
           message: true
     EOS
