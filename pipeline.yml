@@ -1,0 +1,9 @@
+---
+messenger:
+  type: fake
+
+pipeline:
+  - stage_name: Download remote files
+    command: bundle exec rake download
+  - stage_name: Calc sha256
+    command: shasum -a 256 archives/*/* > sha256.txt

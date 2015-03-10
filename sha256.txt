@@ -1,0 +1,6 @@
+e200eb30c06269b1781925def75054db39aa029b39bb6255078012530a1e5af7  archives/v0.1.0/walter_darwin_386.zip
+ebe31bfea6f298576fc8a6169e94374012d49039e7823f0e4f998d1e2305feb6  archives/v0.1.0/walter_darwin_amd64.zip
+17e73d129582ae0309509a2fdda4437b82900436b60d7fae22ebd4349f74ab3c  archives/v0.2.0/walter_darwin_386.zip
+664cbab26e556d2da737de7ca384a40bf358ecd02898e7aa5d0c1393f711b55b  archives/v0.2.0/walter_darwin_amd64.zip
+2855c0b4fe95d5d075f9acaf2147a5b7ea8d1579a0bd7dfeef9bd235ddfaf18b  archives/v1.0.0/walter_darwin_386.zip
+25d0fe4fc1e9a2301aaf8643570f23f6568e2c1241ca9ff313b623ad4715bfcd  archives/v1.0.0/walter_darwin_amd64.zip
