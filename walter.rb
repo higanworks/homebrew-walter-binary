@@ -1,16 +1,16 @@
 require 'formula'
 class Walter < Formula
   homepage 'http://ainoya.io/walter'
-  version '1.0.0'
+  version '1.1.0'
 
   depends_on :arch => :intel
 
   if Hardware.is_64_bit?
-    url 'https://github.com/walter-cd/walter/releases/download/v1.0.0/walter_darwin_amd64.zip'
-    sha256 '25d0fe4fc1e9a2301aaf8643570f23f6568e2c1241ca9ff313b623ad4715bfcd'
+    url 'https://github.com/walter-cd/walter/releases/download/v1.1.0/walter_darwin_amd64.zip'
+    sha256 '48db5c3ad0020435d0dc907da754ebfadafa7315e152c3e3402dc4ee34d91ae0'
   else
-    url 'https://github.com/walter-cd/walter/releases/download/v1.0.0/walter_darwin_386.zip'
-    sha256 '2855c0b4fe95d5d075f9acaf2147a5b7ea8d1579a0bd7dfeef9bd235ddfaf18b'
+    url 'https://github.com/walter-cd/walter/releases/download/v1.1.0/walter_darwin_386.zip'
+    sha256 '56e9a8ba8082332f4dfbce7a244e2382322b4263e2e54aa1d8957f21c6428013'
   end
 
   def install
