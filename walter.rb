@@ -7,10 +7,10 @@ class Walter < Formula
 
   if Hardware.is_64_bit?
     url 'https://github.com/walter-cd/walter/releases/download/v1.1.0/walter_darwin_amd64.zip'
-    sha256 '48db5c3ad0020435d0dc907da754ebfadafa7315e152c3e3402dc4ee34d91ae0'
+    sha256 '6c4e1e758c7da6af9d2a1488c1d7870d09ec1f49901d26fd63d830cec3ce89b2'
   else
     url 'https://github.com/walter-cd/walter/releases/download/v1.1.0/walter_darwin_386.zip'
-    sha256 '56e9a8ba8082332f4dfbce7a244e2382322b4263e2e54aa1d8957f21c6428013'
+    sha256 '1a16ff438d9d3964956288ffca2a2a405cc51b8e7820b862a0c104f62a2e3404'
   end
 
   def install
