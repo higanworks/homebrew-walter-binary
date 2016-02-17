@@ -1,7 +1,7 @@
 require 'formula'
 class Walter < Formula
   homepage 'http://ainoya.io/walter'
-  version '1.3.0'
+  version '1.3.0-3'
 
   depends_on :arch => :intel
 
