@@ -12,3 +12,7 @@ fef347704e78515ceec1fab6fdf43bb7d87c2d0a51d1c810b2334b300edb5873  archives/v1.3.
 774e57e158baf593b9aabe9848b53a37f0dbf0a8143285cf6cf66080966561e6  archives/v1.3.0/walter_1.3.0_darwin_amd64.zip
 be7e3575a16d32df733544141b75d1af50035b3cc658bc000dfc198a602cf628  archives/v1.4.0/walter_1.4.0_darwin_386.zip
 29c03d6ff2563227947de18cd1cabba8085e9e763a50982bdc7aabc49f1f0fc0  archives/v1.4.0/walter_1.4.0_darwin_amd64.zip
+c25db5033f73d54bea56ffd88f5e8756242b97b0361e6be65643eebbb8f72f6e  archives/v2.0.0.beta1/walter_v2.0.0.beta1_darwin_386.zip
+3fc9c61ea80ad44b107b2e4c20a6fe194b457e05f48ea8d5e851992487ac4310  archives/v2.0.0.beta1/walter_v2.0.0.beta1_darwin_amd64.zip
+2e317043d0a6430fa1224ede5499be88a9e3d01b41d0cf542d305810490e2ad4  archives/v2.0.0/walter_v2.0.0_darwin_386.zip
+7508f5f22cc4d510eef3f4db1849e6d6350c233ee4d627efb46e09208330faad  archives/v2.0.0/walter_v2.0.0_darwin_amd64.zip

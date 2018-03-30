@@ -1,16 +1,16 @@
 require 'formula'
 class Walter < Formula
   homepage 'http://ainoya.io/walter'
-  version '1.4.0-2'
+  version '2.0.0-1'
 
   depends_on :arch => :intel
 
   if Hardware::CPU.is_64_bit?
-    url 'https://github.com/walter-cd/walter/releases/download/v1.4.0/walter_1.4.0_darwin_amd64.zip'
-    sha256 '29c03d6ff2563227947de18cd1cabba8085e9e763a50982bdc7aabc49f1f0fc0'
+    url 'https://github.com/walter-cd/walter/releases/download/v2.0.0/walter_v2.0.0_darwin_amd64.zip'
+    sha256 '7508f5f22cc4d510eef3f4db1849e6d6350c233ee4d627efb46e09208330faad'
   else
-    url 'https://github.com/walter-cd/walter/releases/download/v1.4.0/walter_1.4.0_darwin_386.zip'
-    sha256 'be7e3575a16d32df733544141b75d1af50035b3cc658bc000dfc198a602cf628'
+    url 'https://github.com/walter-cd/walter/releases/download/v2.0.0/walter_v2.0.0_darwin_386.zip'
+    sha256 '2e317043d0a6430fa1224ede5499be88a9e3d01b41d0cf542d305810490e2ad4'
   end
 
   def install
@@ -20,13 +20,14 @@ class Walter < Formula
   test do
     minimal = testpath/"pipeline.yml"
     minimal.write <<-EOS.undent
-      messenger:
-        type: fake
+      notify:
+        - type: fake
 
-      pipeline:
-        - stage: Notify the beggining of process pipeline
-          command: echo "build pipeline is started"
-          message: true
+      build:
+        tasks:
+          - stage: Notify the beggining of process pipeline
+            command: echo "build pipeline is started"
+            message: true
     EOS
     system "#{bin}/walter"
   end
