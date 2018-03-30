@@ -29,7 +29,7 @@ class Walter < Formula
             command: echo "build pipeline is started"
             message: true
     EOS
-    system "#{bin}/walter"
+    system "#{bin}/walter -build"
   end
 end
 
